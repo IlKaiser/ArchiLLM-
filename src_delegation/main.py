@@ -7,7 +7,7 @@ import csv
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from src.prompt import Prompt
-from src.agent import run
+from src_delegation.agent import run
 
 def main():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
